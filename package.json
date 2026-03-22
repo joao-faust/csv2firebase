@@ -1,0 +1,20 @@
+{
+  "name": "csv2firebase",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node -r dotenv/config src/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "Save CSV data into Firestore Documents",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "consola": "^3.4.2",
+    "csvtojson": "^2.0.14",
+    "dotenv": "^17.3.1",
+    "firebase": "^12.11.0",
+    "lodash": "^4.17.23"
+  },
+  "type": "module"
+}
